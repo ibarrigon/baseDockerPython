@@ -1,0 +1,5 @@
+docker build -t my_image --rm .
+
+docker run -it --name my_app --rm my_image
+
+docker exec -it my_app bash
